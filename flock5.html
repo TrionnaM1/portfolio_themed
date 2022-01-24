@@ -1,0 +1,351 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="dist/style.css">
+        <title>Cut the clutter in your worklife!</title>
+        <!--style-->
+        <style>
+            body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; }
+    body a {
+        text-decoration: underline;
+        font-weight: 600px !important; }
+    body table.outer-container {
+        font-family: sans-serif;
+        width: 100%;
+        height: 100%;
+        max-width: 720px !important;
+        background-color: #e9e9e9;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center; }
+        body table.outer-container tbody {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center; }
+        body table.outer-container tbody tr {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center; }
+            body table.outer-container tbody tr td {
+            display: flex;
+            width: 100%;
+            max-width: 620px !important;
+            height: 100%;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center; }
+            body table.outer-container tbody tr td table.logo-section {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                padding-top: 1rem;
+                padding-bottom: 1rem; }
+                body table.outer-container tbody tr td table.logo-section img.logo {
+                width: 8rem; }
+            body table.outer-container tbody tr td table.content-container {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center; }
+                body table.outer-container tbody tr td table.content-container tbody tr {
+                margin-top: .25rem;
+                margin-bottom: .25rem;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                background-color: #ffffff;
+                color: #646464;
+                text-align: center; }
+                body table.outer-container tbody tr td table.content-container tbody h2 {
+                font-size: 1.6rem;
+                text-align: center; }
+                body table.outer-container tbody tr td table.content-container tbody img {
+                width: 100%;
+                height: 100%; }
+                body table.outer-container tbody tr td table.content-container tbody p {
+                font-size: 1rem;
+                line-height: 1.5; }
+                body table.outer-container tbody tr td table.content-container tbody .outer-container {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                padding-right: 2rem;
+                padding-left: 2rem;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                width: 100%; }
+                body table.outer-container tbody tr td table.content-container tbody tr.row-one td {
+                padding: 0; }
+                body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                width: 100%; }
+                body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 100%;
+                    padding-left: 2rem;
+                    padding-right: 2rem; }
+                    body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text tr {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: flex-start;
+                    width: 100%; }
+                    body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text tr td {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        align-content: center;
+                        justify-content: center;
+                        align-items: flex-start;
+                        width: 70%;
+                        line-height: 1.5; }
+                        body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text tr td h3 {
+                        font-size: 1.2rem;
+                        display: flex;
+                        padding-left: 2.5rem;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-content: center;
+                        justify-content: center;
+                        align-items: flex-start; }
+                        body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text tr td p {
+                        font-size: 1rem;
+                        text-align: left; }
+                @media only screen and (min-width: 585px) {
+                    body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text {
+                    padding: 0; }
+                    body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text tr {
+                        flex-direction: row;
+                        justify-content: space-between; }
+                        body table.outer-container tbody tr td table.content-container tbody tr.row-two .outer-container table.text tr td {
+                        width: 45%; } }
+                body table.outer-container tbody tr td table.content-container tbody tr.row-six table {
+                width: 100%; }
+                body table.outer-container tbody tr td table.content-container tbody tr.row-six table tr a p {
+                    text-decoration: underline;
+                    margin-top: .5rem;
+                    margin-bottom: .5rem; }
+                @media only screen and (max-width: 500px) {
+                body table.outer-container tbody tr td table.content-container tbody tr.row-six table tr {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
+                    text-align: left; }
+                    body table.outer-container tbody tr td table.content-container tbody tr.row-six table tr a p {
+                    width: 100%;
+                    font-weight: 600 !important; } }
+            body table.outer-container tbody tr td table.footer {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem; }
+                body table.outer-container tbody tr td table.footer tr {
+                padding-top: .5rem;
+                padding-bottom: .5rem; }
+                body table.outer-container tbody tr td table.footer tr.one {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                width: 100%;
+                height: 100%; }
+                body table.outer-container tbody tr td table.footer tr.one td {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center; }
+                    body table.outer-container tbody tr td table.footer tr.one td img.icon {
+                    width: 1.6rem;
+                    padding-left: .25rem;
+                    padding-right: .25rem; }
+                body table.outer-container tbody tr td table.footer tr.two {
+                width: 100%; }
+                body table.outer-container tbody tr td table.footer tr.two td {
+                    width: 100%;
+                    color: #4b4545; }
+                body table.outer-container tbody tr td table.footer tr.three {
+                width: 100%; }
+                body table.outer-container tbody tr td table.footer tr.three td {
+                    width: 100%; }
+                body table.outer-container tbody tr td table.footer tr.four {
+                color: #359afc;
+                font-size: .9rem;
+                width: 100%; }
+                body table.outer-container tbody tr td table.footer tr.four td {
+                    width: 100%; }
+                    body table.outer-container tbody tr td table.footer tr.four td a {
+                    padding-left: .25rem;
+                    padding-right: .25rem; }
+        </style>
+    </head>
+    
+    <body>
+        <div id="preview-text" style="display: none; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+            Cut the clutter in your worklife!
+        </div>
+        <table class="outer-container" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table class="logo-section" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <img class="logo" alt="Flock Logo" src="http://static.flock.co/newsletter/logo_flock.png">
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="content-container" align="center" cellpadding="0" cellspacing="0">
+                        <tr class="row-one">
+                            <td class="outer-container">
+                                <img class="header-img" alt="Cut the Clutter in Your Worklife" src="https://f.flockusercontent.com/3dc6cd51480423727db2626f">
+                            </td>
+                        </tr>
+                        <tr class="row-two">
+                            <td class="outer-container">
+                                <h2 class="heading">New Updates That Cancel Out the Noise</h2> 
+                                <img alt="Pinned Conversations and Muted Groups" src="http://static.flock.co/flock/mailer/cancel-noise.png">
+                                <table class="text">
+                                    <tr>
+                                        <td>
+                                            <h3 style="background: url('http://static.flock.co/flock/mailer/pinned.png') no-repeat; background-size: contain">Pin it up</h3>
+                                            <p>Now you can pin up conversations in Flock that need more attention or deserve your highest priority.</p>
+                                        </td>
+                                        <td>
+                                            <h3 style="background: url('http://static.flock.co/flock/mailer/muted.png') no-repeat; background-size: contain">Mute it down</h3>
+                                            <p>Mute all unnecessary conversations, so they stay in the muted groups section and don't bubble up on top.</p>
+                                        </td>                                        
+                                    </tr>
+                                </table> 
+                                <button>Know more</button>   
+                            </td>
+                        </tr>
+                        <tr class="row-three">
+                            <td class="outer-container">
+                                <h2 class="heading">Your Google Apps on Flock</h2>
+                                <img alt="Google Suite Icons" src="http://static.flock.co/flock/mailer/g-suit.png">
+                                <p>We've integrated the most commonly used G-Suite apps so that you can get all the important information you need, right within Flock.</p>
+                                <button>Hit the Appstore</button>
+                            </td>
+                        </tr>
+                        <tr class="row-four">
+                            <td class="outer-container">
+                                <h2 class="heading">GIF Up Your Chats</h2>
+                                <img alt="Guggy" src="https://lh3.googleusercontent.com/6camI7UZYFXUZ3WCt1h7L-gpA8FvSQvKdKhpEpFJudy3Dj7ff_NSSe8vyDoOlahDbw=h1024-no-tmp_guggy_funny_gifs_stickers_apk.jpg">
+                                <p>Presenting our latest entrant to the Appstore, the absolutely fun Guggy GIF App. Use /guggy followed by your regular text message and watch it turn into a whimsy GIF.</p>
+                                <button>Get Guggy</button>
+                            </td>
+                        </tr>
+                        <tr class="row-five">
+                            <td class="outer-container">
+                                <h2 class="heading">Is There a Feature You'd like to See in Flock?</h2>
+                                <p>Let us know which feature you'd like to see in Flock. If you have general feedback about our app, we'd love to hear that too.</p>
+                                <button>Request a Feature</button>
+                            </td>
+                        </tr>
+                        <tr class="row-six">
+                            <td class="outer-container">
+                                <h2 class="heading">Make the Most Out of Flock</h2>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a><p>Flock Product Video</p></a>
+                                        </td>
+                                        <td>
+                                            <a><p>Getting Started Guide</p></a>
+                                        </td>
+                                    </tr>
+                                </table>                            
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="footer" align="center" cellpadding="0" cellspacing="0">
+                        <tr class="one">
+                            <td>
+                                <img class="icon" src="http://static.flock.co/flock/mailer/icon_youtube.png" alt="Youtube">
+                                <img class="icon" src="http://static.flock.co/flock/mailer/twitter.png" alt="Twitter">
+                                <img class="icon" src="http://static.flock.co/flock/mailer/icon_facebook.png" alt="Facebook">
+                                <img class="icon" src="https://f.flockusercontent.com/6b90df31480416213c88bf0a" alt="Pinterest">                            
+                            </td>
+                        </tr>
+                        <tr class="two">
+                            <td>
+                                <p>Get the app on Windows PC, Mac, Chrome, iPhone, Android</p>
+                            </td>
+                        </tr>
+                        <tr class="three">
+                            <td>
+                                <button>Download Now</button>
+                            </td>
+                        </tr>
+                        <tr class="four">
+                            <td>
+                                <p class="footer-links"><a>Need support?</a> <a>Email Setting</a> <a>Unsubscribe</a> <a>View in Browser</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
