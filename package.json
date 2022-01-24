@@ -1,0 +1,11 @@
+{
+  "name": "portfolio_themed",
+  "version": "1.0.0",
+  "description": "Thank you for purchasing, i wish you all the best with this item!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
