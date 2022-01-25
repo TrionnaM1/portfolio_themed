@@ -4,6 +4,7 @@
   "description": "Thank you for purchasing, i wish you all the best with this item!",
   "main": "index.js",
   "scripts": {
+    "start":"node main.js",
     "test": "test"
   },
   "author": "",
