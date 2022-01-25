@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Thank you for purchasing, i wish you all the best with this item!",
   "main": "index.js",
+  "engines": {
+    "node": "14.17.6"
+  },
   "scripts": {
-    "start":"node main.js",
+    "start":"node index.js",
     "test": "test"
   },
   "author": "",
