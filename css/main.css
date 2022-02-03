@@ -819,11 +819,6 @@ hr {
   .navbar .navbar-brand img {
     width: 90px;
   }
- 
-@media (max-width: 767.98px) {
-  .navbar .navbar-menu:before {
-    background-color: #000000;
-  }
 
   .navbar .navbar-menu {
     -ms-flex-direction: column;
@@ -837,13 +832,17 @@ hr {
     position: relative;
     width: 30px;
   }
+ 
+ .navbar .navbar-menu .btn-line {
+    color:#00000!important;
+ }
 
   .navbar .navbar-menu .btn-line,
   .navbar .navbar-menu:before,
   .navbar .navbar-menu:after {
     -ms-flex-item-align: end;
     align-self: flex-end;
-    background-color: gray;
+    background-color: #f3f3f3;
     height: 3px;
     width: 100%;
   }
