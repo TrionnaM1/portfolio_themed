@@ -832,17 +832,13 @@ hr {
     position: relative;
     width: 30px;
   }
- 
- .navbar .navbar-menu .btn-line {
-    color:#00000!important;
- }
 
   .navbar .navbar-menu .btn-line,
   .navbar .navbar-menu:before,
   .navbar .navbar-menu:after {
     -ms-flex-item-align: end;
     align-self: flex-end;
-    background-color: #f3f3f3;
+    background-color: #000000;
     height: 3px;
     width: 100%;
   }
