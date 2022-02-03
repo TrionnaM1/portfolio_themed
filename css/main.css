@@ -32,10 +32,10 @@
 /* Body */
 body {
   background-color: #111;
-  color: #9f9f9f;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.95;
   overflow: hidden;
   position: relative;
@@ -58,7 +58,11 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: #f0f0f0;
+  color: #484848;
+}
+
+h2.plan-price {
+  font-weight: 600;
 }
 
 b {
@@ -106,7 +110,8 @@ hr {
 }
 
 .button-main.button-scheme {
-  color: #fff;
+  color: #fff5fb;
+  font-weight: 600;
 }
 
 /* Helpers */
@@ -272,7 +277,7 @@ hr {
 }
 
 .tns-nav>[aria-controls] {
-  background: #ddd;
+  background: #999;
   border: 0;
   border-radius: 50%;
   height: 9px;
@@ -282,7 +287,7 @@ hr {
 }
 
 .tns-nav>.tns-nav-active {
-  background: #999;
+  background: #000000;
 }
 
 .lity {
@@ -416,7 +421,7 @@ hr {
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
-  background-color: #181818;
+  background-color: #e83e8c;
   bottom: 0;
   display: block;
   position: fixed;
@@ -437,7 +442,7 @@ hr {
 }
 
 .lightbox-wrapper {
-  background-color: #101010;
+  background-color: #fff5fb;
   position: fixed;
 }
 
@@ -461,6 +466,7 @@ hr {
   justify-content: center;
   position: relative;
   width: 30px;
+
 }
 
 .lightbox-wrapper .lightbox-close .close-btn .btn-line,
@@ -468,7 +474,7 @@ hr {
 .lightbox-wrapper .lightbox-close .close-btn:after {
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background-color: gray;
+  background-color: #000000;
   height: 3px;
   width: 100%;
 }
@@ -484,18 +490,20 @@ hr {
 
 .lightbox-wrapper .lightbox-close .close-btn .btn-line {
   width: 55%;
+  background-color: #000000;
 }
 
 .lightbox-wrapper .lightbox-close .close-btn .btn-line,
 .lightbox-wrapper .lightbox-close .close-btn:before,
 .lightbox-wrapper .lightbox-close .close-btn:after {
-  background-color: #fff;
+  background-color: #000000;
   position: absolute;
   width: 100%;
 }
 
 .lightbox-wrapper .lightbox-close .close-btn .btn-line {
   display: none;
+  background-color: #000000;
 }
 
 .lightbox-wrapper .lightbox-close .close-btn:before {
@@ -511,7 +519,7 @@ hr {
 .lightbox-wrapper .lightbox-close .close-btn .btn-line,
 .lightbox-wrapper .lightbox-close .close-btn:before,
 .lightbox-wrapper .lightbox-close .close-btn:after {
-  background-color: #fff;
+  background-color: #000000;
   height: 2px;
 }
 
@@ -584,7 +592,7 @@ hr {
   animation-iteration-count: infinite;
   animation-name: barAnimation;
   animation-timing-function: linear;
-  background-color: #101010;
+  background-color: #fff5fb;
   content: '';
   height: 100%;
   position: absolute;
@@ -627,6 +635,8 @@ hr {
 .lightbox-wrapper .lightbox-content .section-heading>.section-description {
   font-size: 15px;
   margin-bottom: 17px;
+  font-weight: 600;
+  color: #e83e8c;
 }
 
 @media (max-width: 991.98px) {
@@ -665,7 +675,7 @@ hr {
 
 /*----------- Preloader lightbox -----------*/
 .preloader {
-  background-color: #0e0e0e;
+  background-color: #fff5fb;
   height: 100%;
   position: fixed;
   top: 0;
@@ -683,7 +693,7 @@ hr {
 }
 
 .preloader .preloader-block .preloader-icon .loading-dot {
-  background-color: #fff;
+  background-color: #e83e8c;
   border-radius: 50%;
   display: inline-block;
   height: 13px;
@@ -764,15 +774,15 @@ hr {
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #e6e6e6;
+  color: #000000;
   font-size: 1.05rem;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #e6e6e6;
-  font-weight: 600;
+  color: #000000;
+  font-weight: 700;
 }  
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
   margin-right: 32px;
@@ -898,7 +908,7 @@ hr {
 
 /*----------- Home -----------*/
 .home-area {
-  background-color: #111;
+  background-color: #fff5fb;
   background-position: center center;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
@@ -906,7 +916,7 @@ hr {
 }
 
 .home-area:before {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 67%);
 }
 
 .home-area .fixed-wrapper {
@@ -965,7 +975,7 @@ img.icon {
 }
 
 .home-area .home-name {
-  color: #fff;
+  color: #000000;
   font-size: 70px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -973,7 +983,7 @@ img.icon {
 }
 
 .home-area .home-headline {
-  color: #fff;
+  color: #000000;
   font-size: 32px;
   font-weight: 400;
   letter-spacing: 0.3px;
@@ -998,7 +1008,8 @@ img.icon {
 }
 
 .home-area .home-headline .single-headline b {
-  background-color: #e83e8c;
+  background-color: #ff95c6ab;
+  color: #000000;
   display: inline-block;
   font-weight: 500;
   left: 0;
@@ -1058,13 +1069,14 @@ img.icon {
 /* About: Info */
 .info-section .info-img img {
   background-color: transparent;
-  border-color: rgba(0, 0, 0, 0.18);
+  border-color: rgba(0, 0, 0, 10%);
   width: 430px;
 }
 
 .info-section .info-content .content-subtitle {
   font-size: 24px;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .single-item {
@@ -1083,6 +1095,7 @@ img.icon {
   font-weight: 700;
   line-height: 1.6;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 .info-section .info-content .content-description {
@@ -1110,8 +1123,8 @@ img.icon {
 }
 
 .info-section .info-content .content-info .single-info>span {
-  color: #dadada;
-  font-weight: 400;
+  color: #5e5e5e;
+  font-weight: 600;
   margin-right: 10px;
 }
 
@@ -1151,7 +1164,7 @@ img.icon {
 }
 
 .info-section .info-content .content-follow li a {
-  color: #cecece;
+  color: #000000;
 }
 
 .last-btn {
@@ -1262,12 +1275,16 @@ img.icon {
 
 /* About: Services */
 .services-section .single-service {
-  background-color: #161616;
+  background-color: #16161616;
   border-bottom: 2px solid transparent;
   box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
   padding: 38px 42px;
   transition: all 0.15s ease-in-out;
+}
+
+.services-section .single-service:hover {
+  background-color: #ff00c840;
 }
 
 .services-section .single-service .service-icon {
@@ -1277,7 +1294,7 @@ img.icon {
 }
 
 .services-section .single-service .service-title {
-  color: #f3f3f3;
+  color: #484848;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: -0.5px;
@@ -1293,14 +1310,23 @@ img.icon {
 }
 
 /* About: Testimonials */
+.tns-item {
+  
+}
 .testimonials-section .single-review {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
-  background-color: #161616;
+  background-color: #16161616;
+  box-shadow: 0px 6px 16px rgb(0 0 0 / 0.2);
+  border-bottom: 2px solid transparent;
   padding: 48px 40px;
   text-align: left;
   user-select: none;
+}
+
+.testimonials-section .single-review:hover {
+  border-bottom-color: #e83e8c; 
 }
 
 .single-review {
@@ -1329,9 +1355,9 @@ img.icon {
 }
 
 .testimonials-section .single-review .review-client .client-name {
-  color: #efefef;
+  color: #484848;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 7px;
 }
 
@@ -1359,6 +1385,10 @@ img.icon {
 .testimonials-section .tns-nav {
   margin-bottom: 0;
   margin-top: 30px;
+}
+
+.single-review:hover {
+  background-color: #ff00c840; 
 }
 
 @media (max-width: 991.98px) {
@@ -1394,14 +1424,20 @@ img.icon {
 
 /* About: Pricing */
 .pricing-section .single-plan {
-  background-color: #161616;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #16161616;
   padding: 50px 0;
   text-align: center;
 }
 
 .single-plan {
   height: 20rem;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.33);
+  border-bottom: 2px solid transparent;
+}
+
+.single-plan:hover {
+  background-color: #ff00c840;
+  border-bottom-color: #e83e8c; 
 }
 
 .pricing-section .single-plan .plan-icon {
@@ -1411,14 +1447,14 @@ img.icon {
 }
 
 .pricing-section .single-plan .plan-type {
-  color: #f0f0f0;
+  color: #000000;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 14px;
 }
 
 .pricing-section .single-plan .plan-price {
-  color: #f0f0f0;
+  color: #000000;
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 22px;
@@ -1455,14 +1491,18 @@ img.icon {
 }
 
 .resume-section .resume-item {
-  background-color: #161616;
+  background-color: #16161616;
   border-left: 2px solid transparent;
   padding: 32px 48px;
   position: relative;
 }
 
+.resume-section .resume-block {
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.33);
+}
+
 .resume-section .resume-item:not(:last-child) {
-  border-bottom: 1px solid #313131;
+  border-bottom: 1px solid #e83e8c;
 }
 
 .resume-section .resume-item:last-child {
@@ -1689,10 +1729,10 @@ img.icon {
 
 .portfolio-section .filter-control>li {
   border-bottom: 1px solid transparent;
-  color: #cecece;
+  color: #000000;
   cursor: pointer;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.3px;
   position: relative;
   transition: all .10s ease-in-out;
