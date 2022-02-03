@@ -859,7 +859,7 @@ hr {
   .navbar .navbar-menu .btn-line,
   .navbar .navbar-menu:before,
   .navbar .navbar-menu:after {
-    background-color: #f3f3f3;
+    background-color: #000000;
   }
 
   .navbar .navbar-collapse .navbar-nav {
