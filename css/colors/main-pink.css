@@ -194,8 +194,12 @@ a.text-custom:focus {
   color: #fff;
 }
 
-a:not(.btn) {
+p a:not(.btn) {
   color: #e83e8c;
+}
+
+a:not(.btn) {
+  color: #000000;
 }
 
 a:not(.btn):hover,
@@ -213,7 +217,7 @@ a:not(.btn):focus {
 
 .btn.button-scheme {
   background-color: #e83e8c !important;
-  border: 1px solid #e83e8c !important;
+  border: 1px solid #bd0057 !important;
 }
 
 .btn.button-scheme:hover {
