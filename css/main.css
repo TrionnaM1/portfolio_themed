@@ -793,7 +793,7 @@ hr {
   height: 5px;
   content: "";
   position: absolute;
-  background-color: #e83e8da3;
+  background-color: #ee1358;
 }
 
 .nav-link-ltr::before {
@@ -998,7 +998,7 @@ img.icon {
 }
 
 .home-area .home-headline .single-headline b {
-  background-color: #e83e8c;
+  background-color: #ee3158;
   display: inline-block;
   font-weight: 500;
   left: 0;
