@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\Amazon_Emails"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ApplyEmailTemplate"
+	}
+}
